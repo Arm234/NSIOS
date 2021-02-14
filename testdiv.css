@@ -24,6 +24,15 @@ body {
     padding: 5px;
     border-radius: 10px;*/
 }
+
+#header a {
+    text-decoration: none;
+}
+
+#popup {
+    color: white;
+    font-size: larger;
+}
 /*je vous pas ton msg
 tant pis
 ok
