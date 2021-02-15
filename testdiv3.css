@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+#aninuum {
+    width: 75%;
+    height: auto;
+}
+
+#aninum {
+    text-align: center;
+}
+
+#menu {
+    background-color: #9370DB;
+    color: white;
+    padding: 25px;
+    margin-bottom: 10px;
+}
