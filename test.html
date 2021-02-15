@@ -6,12 +6,12 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>Desi Developer</title>
 <style>
-body{
+/*body{
 font-family: sans-serif;
   }
 a{
 text-decoration: none;
-  }
+  }*/
   .modal{
 background-color: rgba(0,0,0, .8);
 width:100%;
@@ -19,10 +19,10 @@ height: 100vh;
 position: absolute;
 top: 0;
 left: 0;
-z-index: 10;
+/*z-index: 10;*/
 opacity: 0;
 visibility: hidden;
-transition: all 1s;
+transition: all .5s;
   }
   .modal__content{
 width: 75%;
@@ -39,41 +39,41 @@ visibility: hidden;
 transition: all .5s;
   }
 #modal:target{
-opacity: 1;
+    opacity: 1;
 visibility: visible;
   }
 #modal:target .modal__content{
 opacity: 1;
 visibility: visible;
   }
-  .modal__close{
+/*  .modal__close{
 color: #363636;
 font-size: 2em;
 position: absolute;
 top: .5em;
 right: 1em;
-  }
-  .modal__heading{
+  }*/
+ /* .modal__heading{
 color: dodgerblue;
 margin-bottom: 1em;
-  }
-  .modal__paragraph{
+  }*/
+ /* .modal__paragraph{
 line-height: 1.5em;
-  }
-.modal-open{
+  }*/
+/*.modal-open{
 display: inline-block;
 color: dodgerblue;
 margin: 2em;
-}
+}*/
 </style>
 </head>
 <body>
-<a href="#modal" class="modal-open">Open Modal</a>
+<a href="#modal">Open Modal</a>
 <div class="modal" id="modal">
 <div class="modal__content">
 <a href="#" class="modal__close">&times;</a>
-<h2 class="modal__heading">Desi Developer</h2>
-<p class="modal__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis possimus inventore suscipit mollitia, odit aliquam laudantium praesentium porro hic asperiores expedita obcaecati earum ullam, nisi laborum accusamus, id placeat tenetur?
+<h2>Desi Developer</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis possimus inventore suscipit mollitia, odit aliquam laudantium praesentium porro hic asperiores expedita obcaecati earum ullam, nisi laborum accusamus, id placeat tenetur?
       Consequatur, neque. Explicabo, reiciendis quia distinctio eius facere pariatur expedita, amet hic alias illum harum inventore, ullam tempore quos. Quod, repellat ratione culpa qui harum blanditiis atque voluptatem iste id.
       Rerum veniam ipsum quisquam mollitia vel fuga dicta tempora. Magni, labore beatae eaque suscipit mollitia pariatur impedit accusantium explicabo aspernatur adipisci sapiente eveniet qui facilis in voluptas nisi! Ipsum, praesentium!
       Quos, ex. Ipsum asperiores quasi, nam atque voluptatibus reprehenderit repellat fuga pariatur consequatur quae hic, numquam commodi illo aut. Laborum et natus magni illum tenetur est, minus eligendi quisquam facilis.
