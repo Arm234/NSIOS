@@ -11,7 +11,7 @@ body {
     text-align: center;
     color: #9370DB;
     background-color: none;
-    padding: 1em;
+    padding: 0;
     border: 1px solid white;
     border-radius: 10px;
     width: 25%;
@@ -23,6 +23,10 @@ body {
    /* border: solid black 1px;
     padding: 5px;
     border-radius: 10px;*/
+}
+
+#header .case h1 {
+    margin: 0;
 }
 
 #header a {
