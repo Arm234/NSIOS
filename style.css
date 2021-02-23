@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#menu {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+@media (max-width: 1200px) {
+    nav {
+        font-size: 28px;
+    }
+}
+    
+nav {
+    width: 100%;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    overflow: auto;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+}
+
+li {
+    float: left;
+}
+
+ul li a:hover {
+    text-shadow: 7px 7px 7px #ffffff;
+}
+
+.logo img {
+    position: absolute;
+    margin: 0.5% 0 0 0.5%;
+    max-width: 4em;
+    z-index: 2;
+}
+
+nav a {
+    width: auto;
+    display: block;
+    padding: 24px 30px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+#aninuum {
+    width: 75%;
+    z-index: 1;
+}
+
+#aninum {
+    display: fixed;
+    text-align: center;
+    z-index: 1;
+}
+
+#nsi-xyz-menu-icon {
+    filter: invert(1);
+    margin-top: 0.4%;
+}
