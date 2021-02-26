@@ -1,0 +1,117 @@
+#yo h1 {
+    font-size: 450%;
+    background: radial-gradient(ellipse at center, #ffffff 1%, #000000 100%);
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#box #case1 {
+    height: auto;
+    background: linear-gradient(to left bottom, #9370dbb0 0%, #d39effb0 50%, #af6eb1 100%);    
+    border-radius: 25px;
+    width: 90%;
+    min-width: 250px;
+    margin: 1%;
+    padding-bottom: 3%;
+}
+
+#box #case1 h2 {
+    margin: 6% 0 0 6%;
+    font-size: 300%;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    z-index: 2;
+}
+
+#box #case1 img {
+    float: right;
+    width: 40%;
+    filter: brightness(0.93);
+}
+
+#box #case1 #engre {
+    float: left;
+    margin: 2% 0 0 -0.42%;
+    filter: invert(1);
+    width: 5%;
+}
+
+#box #case1 p {
+    margin: 4% 0 0 4%;
+    font-size: 125%;
+    font-family: arial;
+}
+
+#box #case2 {
+    text-align: left;
+    height: auto;
+    border-radius: 25px;
+    min-width: 400px;
+    max-width: 600px;
+    margin: 0 1% 1% 0;
+    padding: 0;
+    background-image: url("https://nsi42.net/021/lavachecommentcestclasse/photos/pixel.png");
+    padding-bottom: 3%;
+}
+
+#box #case2 h2, #case3 h2 {
+    text-align: center;
+    margin-top: 6% 0 0 0;
+    font-size: 200%;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#box #case2 p {
+    margin: 4% 25% 0 2%;
+    font-size: 300%;
+    font-family: arial;
+    z-index: 3;
+}
+
+#box #case2 img {
+    float: left;
+    margin: 2.5% 0 0 2.8%;
+    filter: invert(1);
+    width: 4.3%;
+}
+
+#box #case3 {
+    background: linear-gradient(to left top, #523a8a 0%, #257983 50%, #1c9b68 100%);
+    border-radius: 25px;
+    min-width: 400px;
+    max-width: 600px;
+    margin: 0 0 1% 0;
+    padding: 0;
+}
+
+#batterie {
+    display: inline-block;
+}
+
+#box #case3 #bat{
+    margin: 0;
+    z-index: 1;
+    float: left;
+}
+
+#box #case3 p{
+    font-size: 139%;
+    font-family: Arial;
+    text-align: right;
+    margin: 10% 7% 0 4%;
+}
+
+#box #case3 #ener {
+    float: left;
+    margin: 2.5% 0 0 2.8%;
+    filter: invert(1);
+    width: 120%;
+}
